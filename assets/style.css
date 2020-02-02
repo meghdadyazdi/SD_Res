@@ -170,12 +170,13 @@ img.responsive-img, video.responsive-video {
 
 #gh-username {
   display: block;
-  padding: 5px 8px;
+  padding: 0;
   font-size: 1.4em;
   color: #666;
-  max-width: 550px;
+  /*max-width: 550px;*/
   margin-bottom: 15px;
 }
+
 
 #gh-submit {
   display: inline-block;
