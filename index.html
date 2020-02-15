@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -40,19 +41,19 @@
 <section class="container">
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">
-            <div class="col-sm-6 center">
+            <div class="col-sm-4 center">
               <!--<div class="col my_img">-->
               <img src="assets/images/meghdad_res2.jpg" alt="" class="circle responsive-img center"> <!-- notice the "circle" class -->
             <!--</div>-->
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-8 center">
               <div class="row">
-              <div class="col s12 center">
+              <div class="col-sm-12 center">
               <span class="black-text name_font">
                 Meghdad Yazdi
               </span>
               </div>
-                <div class="col-12 center">
+                <div class="col-sm-12 center">
                 <span class="black-text my_font">
                 Full Stack Developer
               </span>
@@ -60,21 +61,27 @@
             </div>
             </div>
           </div>
+        </div>
+</section>
+
+<section class="container">
+        <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row">
-            <div class="col-sm-6 col-md-4 text_font">
-            <h3>WHAT DO I DO?</h3>
+            <div class="col-sm-12 text_font"><h3>A b o u t</h3></div>
+            <div class="col-sm-6 col-md-4 text_font m0">
+            
             <p>
               I'm a skilled Fullstack developer with a wealth of diverse life and technical experience that I bring to every project.
             </p>
             </div>
-            <div class="col-sm-6 col-md-4 text_font">
-              <h3>HOW DO I DO IT?</h3>
+            <div class="col-sm-6 col-md-4 text_font m0">
+              <!--<h3>HOW DO I DO IT?</h3>-->
             <p>
               I follow form as well as function. I know that aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
             </p>
             </div>
-            <div class="col-sm-6 col-md-4 text_font">
-              <h3>WHY HIRE ME</h3>
+            <div class="col-sm-6 col-md-4 text_font m0">
+              <!--<h3>WHY HIRE ME</h3>-->
             <p>
               I work quickly and effectively in getting things built and working across the stock. I'm an excelent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when I work solo
             </p>
@@ -83,6 +90,21 @@
         </div>
 </section>
 
+<section class="container">
+        <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+                <div class="center-form">
+                    <input type="text" id="gh-username" placeholder="meghdadyazdi" value="" oninput="fetchGitHubInformation()" />
+                    <div id="gh-user-data"></div>
+                    <div id="gh-repo-data"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+</section>
 
 <section class="container">
         <div class="card-panel grey lighten-5 z-depth-1">
@@ -100,40 +122,12 @@
                     <div id="gh-user-data"></div>
                     <div id="gh-repo-data"></div>
               </div>
-            
-            <!--<div class="col text_font">-->
-            <!--    <h3>View My GitHub Projects</h3>-->
-            <!--    <h5 class="uppercase text-center">You can also search on other user profiles</h5>-->
-            <!--    <div class="col-md-6 offset-md-3 center-form">-->
-            <!--        <input type="text" id="gh-username" placeholder="meghdadyazdi" value="" oninput="fetchGitHubInformation()" />-->
-            <!--        <div id="gh-user-data"></div>-->
-            <!--        <div id="gh-repo-data"></div>-->
-            <!--    </div>-->
-            <!--</div>-->
-            
-            
         </div>
         </div>
 </section>
 
 
 
-<section class="container">
-        <div class="card-panel grey lighten-5 z-depth-1">
-         
-            <div class="row bg-color-contact">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
-                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
-                <div class="center-form">
-                    <input type="text" id="gh-username" placeholder="meghdadyazdi" value="" oninput="fetchGitHubInformation()" />
-                    <div id="gh-user-data"></div>
-                    <div id="gh-repo-data"></div>
-                </div>
-            </div>
-        </div>
-        </div>
-</section>
 
 
 
@@ -147,4 +141,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
 <script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="">
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
 </html>

@@ -21,6 +21,7 @@
   margin-right: auto;
   width: 50%;
 }
+
 img.responsive-img, video.responsive-video {
     max-width: 50%;
     /*position: absolute;*/
@@ -54,8 +55,21 @@ img.responsive-img, video.responsive-video {
     margin: 0;
 }
 
+.m0{
+  margin: 0 !important;
+}
+
+.p0{
+  padding: 0 !important;
+}
+
 .row .col-sm-6{
   margin-top: 5rem; 
+}
+
+a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
 }
 
 
