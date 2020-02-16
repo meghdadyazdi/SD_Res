@@ -1,20 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+nav {
+    background-color: #e67e22;
+}
+
+.sidenav {
+    width: 120px;
+    background-color: #e67e22;
+}
 
 .row .col.m2 {
     width: 50%;
     margin: 0;
 }
+
 .row .col.s12 {
     width: 50%;
     margin: 0;
 }
+
 .card-panel{
     position: relative;
 }
+
 .dark-bg{
     background-color: #676767;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -24,27 +36,22 @@
 
 img.responsive-img, video.responsive-video {
     max-width: 50%;
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*margin-right: -50%;*/
-    /*transform: translate(-50%, -50%)*/
 }
-.name_font{
-    /*font-family: 'Dosis', sans-serif;*/
-    font-family: "Roboto", sans-serif;
+.name-font{
+    font-family: 'Dosis', sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 2.5rem;
     font-weight: 400;
     text-align: center;
 }
-.my_font{
+.my-font{
     /*font-family: 'Dosis', sans-serif;*/
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     /*text-align: center;*/
     font-weight: 100;
 }
-.text_font{
+.text-font{
     /*font-family: 'Dosis', sans-serif;*/
     font-family: "Exo", sans-serif;
     font-size: 1rem;
@@ -76,6 +83,9 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 100%;
+  height: 380px;
+  border-radius: 15px !important;
+  border: 0px solid rgba(0,0,0,.125) !important;
 }
 
 .card:hover {
@@ -114,9 +124,11 @@ a:hover {
   filter: grayscale(100%);
 }
 
-/*.work-img:hover{*/
-/*  filter: grayscale(20%);*/
-/*}*/
+#img-cook,
+#img-tetris,
+#img-gym{
+  border-radius: 15px;
+}
 
 h4{
   margin-top: 1rem !important;
@@ -127,6 +139,45 @@ h4{
   
 }
 
+/*__________________________Skils______________________________*/
+
+.progress{
+    position: relative;
+    height: 30px !important;
+    margin-bottom: 4px;
+}
+
+.progress-type{
+    position: absolute;
+    left: 0;
+    font-weight: 400;
+    padding: 4px 39px 19px 10px;
+    color: #fafafa;
+    background-color: rgba(25,25,25,.2)
+}
+
+.progress-section{
+    margin: 0px auto!important;
+    width: 80%;
+}
+
+.progress-font{
+  font-size: 15px;
+}
+
+/*___________________________three reason___________________________________*/
+
+.three-reasons-icon{
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading{
+    margin-bottom: 15px;
+}
+
+
+/*__________________________Github_____________________________*/
 #search-area {
   display: block;
   max-width: 70%;
