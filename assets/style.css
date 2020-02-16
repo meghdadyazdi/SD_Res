@@ -72,10 +72,60 @@ a:hover {
     text-decoration: none !important;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
 
+.card:hover {
+  box-shadow: 0 8px 90px 0 rgba(0,0,0,1);
+}
 
+.mauto{
+  margin: auto !important;
+}
 
+.fa-tablet-alt{
+  font-size: 30px;
+  color: #adadad
+}
 
+.fa-tablet-alt:hover{
+  transform: rotate(5deg);
+  color: #5a5a5a;
+}
+
+.fa-github{
+  font-size: 30px;
+  color: #adadad
+}
+
+.fa-github:hover{
+  transform: rotate(5deg);
+  color: #5a5a5a;
+}
+
+.par{
+  text-align: center;
+}
+
+.work-img{
+  filter: grayscale(100%);
+}
+
+/*.work-img:hover{*/
+/*  filter: grayscale(20%);*/
+/*}*/
+
+h4{
+  margin-top: 1rem !important;
+  color: #000;
+}
+
+.card-img{
+  
+}
 
 #search-area {
   display: block;
