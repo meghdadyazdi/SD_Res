@@ -148,7 +148,7 @@ a:hover {
 #img-cook,
 #img-tetris,
 #img-gym{
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
 }
 
 h4{
