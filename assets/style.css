@@ -1,12 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body {
+    background-color: #03a9f414 !important;
+}
+
 nav {
-    background-color: #e67e22;
+    background-color: #03a9f4;
 }
 
 .sidenav {
     width: 150px;
-    background-color: #e67e22;
+    background-color: #03a9f4;
+}
+
+.sidenav li>a {
+    color: #fff;
+}
+
+li{
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+}
+
+#home{
+  margin-left: 20px;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
 }
 
 .row .col.m2 {
@@ -19,8 +38,10 @@ nav {
     margin: 0;
 }
 
-.card-panel{
+.card-panel {
     position: relative;
+    border-radius: 20px;
+    margin: 5px 0px;
 }
 
 .dark-bg{
@@ -34,7 +55,7 @@ nav {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #e67e22;
+  background-color: #03a9f4;
   color: white;
   text-align: center;
 }
@@ -162,8 +183,8 @@ font-size:26px;
 margin-bottom: 70px !important;
 }
 
-.card-img{
-  
+grey.lighten-5 {
+    background-color: #fff !important;
 }
 
 /*__________________________Skils______________________________*/
@@ -195,7 +216,7 @@ margin-bottom: 70px !important;
 
 .three-reasons-icon{
     font-size: 26px;
-    color: #e67e22;
+    color: #03a9f4;
 }
 
 .three-reasons-heading{
@@ -364,7 +385,7 @@ margin-bottom: 70px !important;
 /*_______________________________Form_____________________________*/
 
 form {
-  width: 90%;
+  width: 75%;
   padding: 20px 25px;
   margin: auto;
   margin-top: 30px;
@@ -382,7 +403,7 @@ form button {
   border: 1px solid rgba(0,0,0,0.2);
   padding: 8px 35px;
   font-size: 12px;
-  background: #e67e22;
+  background: #03a9f4;
   color: white;
   border-radius: 10px;
 }
@@ -394,21 +415,32 @@ form label {
 }
 
 button:focus {
-    background-color: #934500;
+    background-color: #007db5;
+}
+
+.send-btn{
+  position: relative;
+}
+#send-btn{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 /*_____________________________icons______________________________*/
 
 .icons{
   font-size: 2.5rem;
-  color: #e6822e40;
+  color: #03a9f440;
   position: absolute;
   z-index: 9999;
 }
 
 .icon-in{
   font-size: 1rem;
-  color: #e6822e40;
+  color: #03a9f440;
   position: absolute;
   z-index: 9999;
   margin-top: 13px;
@@ -420,9 +452,20 @@ button:focus {
 
 .cv-pdf{
   font-size: 1.5rem;
-  color: #e6822e;
+  color: #03a9f4;
 }
 
 .download{
   text-align: center;
+}
+
+/*_____________________________media query______________________________*/
+
+@media only screen and (max-width: 600px) {
+  form {
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  margin-top: 30px;
+}
 }
