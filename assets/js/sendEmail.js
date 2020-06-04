@@ -14,11 +14,14 @@ myform.submit(function(event){
   myform.find("button").text("Sending...");
   emailjs.send(service_id, template_id, params)
   	.then(function(){ 
-       alert("Sent!");
+    //    alert("Sent!");
+       $('#sent').removeClass('d-none');
        myform.find("button").text("Send");
      }, function(err) {
-       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-       myform.find("button").text("Send");
+         $('#sent-error').removeClass('d-none');
+         //$("#sent-error").html("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+         //alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+         myform.find("button").text("Send");
     });
 
   return false;

@@ -117,26 +117,26 @@
           <h3 id="projects" class="three-reasons-icon">P r o j e c t s</h3>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="wrapper col-sm-12 col-md-6 col-lg-3">
           <div id="auction" class="card">
             <img id="img-auction" src="assets/images/auction.png" alt="Auction" class="work-img" style="width:100%">
             <div class="container">
               <h4><b>Auctioneer</b></h4>
               <h5>Django, Python, PostgreSQL</h5>
-              <p>An e-commerce application to sell and buy old stuff.</p>
+              <p class="description">An e-commerce application to sell and buy old stuff.</p>
               <div class="par"><a href="https://auction-meghdad.herokuapp.com/search/sold/" target="_blank"><i class="fas fa-tablet-alt"></i></a> &nbsp&nbsp&nbsp&nbsp
                 <a href="https://github.com/meghdadyazdi/Auction" target="_blank"><i class="fab fa-github"></i></a></div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="wrapper col-sm-12 col-md-6 col-lg-3">
           <div id="cook" class="card">
             <img id="img-cook" src="assets/images/cookbook.png" alt="CooKBooK" class="work-img" style="width:100%">
             <div class="container">
               <h4><b>CooKBooK</b></h4>
               <h5>Flask, Python, jQuery, MongoDB</h5>
-              <p>A site to search recipes. Users signs in/up to share their recipes and rate all recipes.</p>
+              <p class="description">A site to search recipes. Users signs in/up to share their recipes and rate all recipes.</p>
               <div class="par"><a href="https://cookbook-meghdad.herokuapp.com" target="_blank"><i class="fas fa-tablet-alt"></i></a> &nbsp&nbsp&nbsp&nbsp
                 <a href="https://github.com/meghdadyazdi/cookbook" target="_blank"><i class="fab fa-github"></i></a></div>
             </div>
@@ -144,13 +144,13 @@
         </div>
 
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="wrapper col-sm-12 col-md-6 col-lg-3">
           <div id="tetris" class="card">
             <img id="img-tetris" src="assets/images/Tetris.png" alt="Tetris Game" class="work-img" style="width:100%">
             <div class="container">
               <h4><b>Tetris Game</b></h4>
               <h5>Javascript, jQuery, HTML</h5>
-              <p>Inspired by famous Tetris game. Optimized for desktop, tablet and mobile devices.</p>
+              <p class="description">Inspired by famous Tetris game. Optimized for desktop, tablet and mobile devices.</p>
               <div class="par"><a href="https://meghdadyazdi.github.io/IFD-Milestone/" target="_blank"><i class="fas fa-tablet-alt"></i></a> &nbsp&nbsp&nbsp&nbsp
                 <a href="https://github.com/meghdadyazdi/IFD-Milestone" target="_blank"><i class="fab fa-github"></i></a></div>
             </div>
@@ -158,13 +158,13 @@
         </div>
 
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="wrapper col-sm-12 col-md-6 col-lg-3">
           <div id="gym" class="card">
             <img id="img-gym" src="assets/images/gym.png" alt="Gym" class="work-img" style="width:100%">
             <div class="container">
               <h4><b>Perfect Gym</b></h4>
               <h5>HTML, CSS, Bootstrap</h5>
-              <p>A front-end design for a gym for introducing the activities and classes to members.</p>
+              <p class="description">A front-end design for a gym for introducing the activities and classes to members.</p>
               <div class="par"><a href="https://meghdadyazdi.github.io/UCFD-Milestone/index.html" target="_blank"><i class="fas fa-tablet-alt"></i></a> &nbsp&nbsp&nbsp&nbsp
                 <a href="https://github.com/meghdadyazdi/UCFD-Milestone" target="_blank"><i class="fab fa-github"></i></a></div>
             </div>
@@ -189,7 +189,7 @@
               <i class="three-reasons-icon fa fa-tv" aria-hiden="true"></i>
             </div>
             <div class="col-10">
-              <h5 class="three-reasons-heading uppercase">FRONT END</h5>
+              <h5 class="three-reasons-heading uppercase">FRONT-END</h5>
               <p>I'm skilled in User Experience Design using the trinity of HTML/CSS/JavaScript.
               </p>
             </div>
@@ -201,7 +201,7 @@
               <i class="three-reasons-icon fa fa-cogs" aria-hiden="true"></i>
             </div>
             <div class="col-10">
-              <h5 class="three-reasons-heading uppercase">BACK END</h5>
+              <h5 class="three-reasons-heading uppercase">BACK-END</h5>
               <p>
                 I have experience in data-driven web application. My projects utilise document-based data. I use Python and Flask/Django in conjuction with MongoDB to process and present information.
               </p>
@@ -261,9 +261,7 @@
 
         <div class="col-md-6 offset-md-3 center-form text-font">
 
-          <p>
-            You can also search on other user profiles
-          </p>
+          <p>Find my GitHub profile here:</p>
 
         </div>
         <div class="col-md-6 offset-md-3 center-form text-font">
@@ -271,6 +269,13 @@
           <div id="gh-user-data"></div>
           <div id="gh-repo-data"></div>
         </div>
+        
+        <div class="col-md-6 offset-md-3 center-form text-font">
+
+          <p>You can also search on other user profiles</p>
+
+        </div>
+
       </div>
     </div>
   </section>
@@ -294,8 +299,21 @@
         <div class="send-btn">
             <button id='send-btn'>Send</button>
         </div>
+        </form>
+
+        <div class="row justify-content-center">
+        <div class="d-none " id='sent'>
+            Your message has been successfully sent.
+        </div>
+        </div>
+
+        <div class="row justify-content-center">
+        <div class="d-none " id='sent-error'>
+            Send email failed!
+        </div>
+        </div>
         
-      </form>
+      
 
     </div>
   </section>

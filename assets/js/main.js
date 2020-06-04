@@ -6,7 +6,7 @@ function sendEmail() {
 	To : 'meghdadyazdi@yahoo.com',
 	From : "meghdad23@gmail.com",
 	Subject : "helloommmmmmmmmm",
-	Body : "hhhhhhhhhhhhhhhheeeeeeeeeeeeeeeeeeeeeellllllllllllllllllllllooooooooooooooooooommmmmmmmmmmmmmmmmmmm",
+	Body : "",
 	}).then(
 		message => alert("mail sent successfully")
 	);
