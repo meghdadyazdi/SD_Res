@@ -1,5 +1,11 @@
 $(document).ready(function() {
     $('.sidenav').sidenav();
+    $('#auction').mouseenter(function() {
+        $('#img-auction').removeClass('work-img');
+    });
+    $('#auction').mouseleave(function() {
+        $('#img-auction').addClass('work-img');
+    });
     $('#cook').mouseenter(function() {
         $('#img-cook').removeClass('work-img');
     });
